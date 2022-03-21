@@ -1,6 +1,6 @@
 # Grove Chainable LED V1.0
 
-[![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)]
+![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)
 
 Bibliothèque et exemple d'utilisation pour [Grove - Chainable RGB LED](https://wiki.seeedstudio.com/Grove-Chainable_RGB_LED/)
 
@@ -15,11 +15,11 @@ Bibliothèque et exemple d'utilisation pour [Grove - Chainable RGB LED](https://
 
 ### Installation
 
-**Copier** la bibliothèque mb_grove_ChainableLED.py avec l'outil fichier de Mu.
+**Copier** la bibliothèque mb_grove_ChainableLED.py avec l'outil _fichiers_ de Mu.
 
 **Flasher** le fichier exemple Chainable_1LED_random.py 
 
-La LED RVB doit être raccordée au port **P16**/P15 du shield, elle change de couleur toute les 2 secondes. Les valeurs RGB de la couleur aléatoire sont visibles avec REPL.
+La LED RVB doit être raccordée au port **P16**/P15 du shield, elle change de couleur toutes les 2 secondes. Les valeurs RGB de la couleur aléatoirement choisie sont visibles avec REPL.
 
 ### Fonctions supportées
 
@@ -30,18 +30,17 @@ La LED RVB doit être raccordée au port **P16**/P15 du shield, elle change de c
 
 Ecrit en **micropython** à partir de la version C++ _arduino_
 
-[https://github.com/Seeed-Studio/Grove_Chainable_RGB_LED]https://github.com/Seeed-Studio/Grove_Chainable_RGB_LED
+[https://github.com/Seeed-Studio/Grove_Chainable_RGB_LED](https://github.com/Seeed-Studio/Grove_Chainable_RGB_LED)
 
 ## Versions
 
 **Dernière version :** 1.0
 
-Liste des versions : [Cliquer pour afficher](https://github.com/your/project-name/tags)
-_(pour le lien mettez simplement l'URL de votre projets suivi de ``/tags``)_
+[Liste des versions](https://github.com/FrdSln/grove_Chainable_RGB_LED/tags)
 
 ## Auteur
 
-* **F. SAULIN** [FrdSln](https://github.com/FrdSln)
+* **F. SAULIN** ([FrdSln](https://github.com/FrdSln))
 
 ## Licence
 

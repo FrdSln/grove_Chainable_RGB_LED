@@ -5,6 +5,7 @@ from microbit import *
 import time
 
 class ChainableLED_grove():
+    # initialisation : broches utilisées - nombre de leds
     def __init__(self, clk_pin, data_pin, number_of_leds):
         self.clk_pin = clk_pin
         self.data_pin = data_pin
@@ -48,6 +49,7 @@ class ChainableLED_grove():
         self.sendByte(green)
         self.sendByte(red)
 
+    # définit les valeurs RGB de la led choisie
     def setColorRGB(self, led, red, green, blue):
         self.sendByte(0x00)
         self.sendByte(0x00)
